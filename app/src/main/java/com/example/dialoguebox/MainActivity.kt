@@ -56,7 +56,7 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this,"Your order is being processed",Toast.LENGTH_LONG).show()
             })
             builder3.setPositiveButton("Submit",DialogInterface.OnClickListener { dialog, which ->
-                Toast.makeText(this,"Your order is being processed ${options[which]}",Toast.LENGTH_LONG).show()
+                Toast.makeText(this,"Your order is being processed",Toast.LENGTH_LONG).show()
             })
             builder3.setNegativeButton("Decline",DialogInterface.OnClickListener { dialog, which ->
 
